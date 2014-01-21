@@ -1,7 +1,7 @@
 #!/bin/bash
 _now=$(date +"%Y-%m-%d_%H.%M.%S")
 apt-get update
-apt-get install htop
+apt-get install htop gcc g++ make subversion
 mv /boot/config.txt /boot/config.txt_$_now.bak
 cp config.txt /boot/config.txt
 mv /etc/rc.local /etc/rc.local_$_now.bak
