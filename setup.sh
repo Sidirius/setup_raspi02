@@ -12,7 +12,4 @@ wget https://github.com/brooc/boblight-rpi/raw/master/src/boblight-dispmanx
 chmod 755 boblight-dispmanx
 mv /home/xbian/.xbmc/userdata/advancedsettings.xml /home/xbian/.xbmc/userdata/advancedsettings.xml_$_now.bak
 cp advancedsettings.xml /home/xbian/.xbmc/userdata/advancedsettings.xml
-
-
-
 rm -rf /home/pi/setup_raspi02
