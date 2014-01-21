@@ -1,0 +1,24 @@
+#initramfs initramfs.gz  0x00a00000
+# Licenses START
+decode_MPG2=0x63fdb4b2
+decode_WVC1=0xf97541c3
+# Licenses END
+
+# OVERCOCKING START
+gpu_mem_512=128
+gpu_mem_256=128
+initial_turbo=1
+hdmi_ignore_cec_init=1
+disable_splash=1
+arm_freq=900
+core_freq=333
+sdram_freq=450
+over_voltage=0
+# OVERCLOCKING END
+
+## OVERSCAN START
+overscan_left=25
+overscan_right=27
+overscan_top=14
+overscan_bottom=14
+## OVERSCAN END
