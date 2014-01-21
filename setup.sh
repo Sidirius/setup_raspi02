@@ -11,9 +11,9 @@ mv /home/xbian/.xbmc/userdata/advancedsettings.xml /home/xbian/.xbmc/userdata/ad
 cp advancedsettings.xml /home/xbian/.xbmc/userdata/advancedsettings.xml
 mv /home/xbian/boboptions.txt /home/xbian/boboptions.txt_$_now.bak
 cp boboptions.txt /home/xbian/boboptions.txt
-cd /home/xbian
+cd /home/xbian/
 svn checkout http://boblight.googlecode.com/svn/trunk/ /home/xbianboblight_source
-cd /home/xbianboblight_source/
+cd /home/xbian/boblight_source/
 ./configure --without-portaudio --without-x11 --without-libusb
 make; sudo make install
 ldconfig
