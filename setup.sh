@@ -7,11 +7,11 @@ cp config.txt /boot/config.txt
 mv /etc/rc.local /etc/rc.local_$_now.bak
 cp rc.local /etc/rc.local
 chmod 755 /etc/rc.local
-cd /home/xbian/
-wget https://github.com/brooc/boblight-rpi/raw/master/src/boblight-dispmanx
-chmod 755 boblight-dispmanx
 mv /home/xbian/.xbmc/userdata/advancedsettings.xml /home/xbian/.xbmc/userdata/advancedsettings.xml_$_now.bak
 cp advancedsettings.xml /home/xbian/.xbmc/userdata/advancedsettings.xml
 mv /home/xbian/boboptions.txt /home/xbian/boboptions.txt_$_now.bak
 cp boboptions.txt /home/xbian/boboptions.txt
+cd /home/xbian/
+wget https://github.com/brooc/boblight-rpi/raw/master/src/boblight-dispmanx
+chmod 755 boblight-dispmanx
 rm -rf /home/pi/setup_raspi02
