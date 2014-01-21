@@ -14,4 +14,4 @@ cp boboptions.txt /home/xbian/boboptions.txt
 cd /home/xbian/
 wget https://github.com/brooc/boblight-rpi/raw/master/src/boblight-dispmanx
 chmod 755 boblight-dispmanx
-rm -rf /home/pi/setup_raspi02
+rm -rf /home/xbian/setup_raspi02
