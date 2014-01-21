@@ -18,6 +18,7 @@ cd /home/xbian/boblight_source/
 make; sudo make install
 ldconfig
 cd /home/xbian/
+rm -rf boblight-dispmanx
 wget https://github.com/brooc/boblight-rpi/raw/master/src/boblight-dispmanx
 chmod 755 boblight-dispmanx
 rm -rf /home/xbian/setup_raspi02
