@@ -1,0 +1,12 @@
+enabled=false
+host=10.0.0.21
+port=19333
+priority=128
+sizedown=112
+margin=5
+timeout=35
+interpolation=0
+speed=100
+autospeed=0
+saturation=1.0
+threshold=15
